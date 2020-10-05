@@ -19,3 +19,6 @@ Enter the replacement:Dan
 ['Alain', 'Brian', 'Chris', 'Justin', 'Angela', 'Dan']
 
 """
+people = ['Alain', 'Brian', 'Chris', 'Justin', 'Angela', 'Rick']
+people [people.index(input("What would you like to replace "))] = (input("What do you want to add "))
+print (people)
