@@ -32,5 +32,5 @@ while num != -1:
         num.append(ip)
 num.sort()
 ln = len(num) - 1
-print("The largest number you entered is " + num[ln])
+print(num[ln])
 
