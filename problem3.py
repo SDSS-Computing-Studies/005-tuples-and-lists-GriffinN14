@@ -25,7 +25,7 @@ The largest number you entered is 92
 """
 num = []
 while num != -1:
-    ip = (input("Enter a number "))
+    ip = int(input("Enter a number "))
     if int(ip) == -1:
         break
     else:
@@ -33,4 +33,3 @@ while num != -1:
 num.sort()
 ln = len(num) - 1
 print(num[ln])
-
